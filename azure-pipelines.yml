@@ -16,7 +16,7 @@ steps:
 - script: echo asdf
   displayName: 'asdf'
 
-- script: The pipeline ran at $(date) > testfile.txt
+- script: echo The pipeline ran at $(date) > testfile.txt
   displayName: 'Put date in file.'
   
   
