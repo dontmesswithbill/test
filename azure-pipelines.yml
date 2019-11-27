@@ -21,7 +21,7 @@ steps:
   
   
 - publish: $(System.DefaultWorkingDirectory)/testfile.txt
-  artifact: testfile
+  artifact: testdir
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
