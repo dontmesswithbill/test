@@ -16,6 +16,9 @@ steps:
 - script: echo asdf
   displayName: 'asdf'
 
+- script: touch testfile.txt
+  displayName: 'Create empty file.'
+
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
