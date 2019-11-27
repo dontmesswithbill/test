@@ -16,8 +16,8 @@ steps:
 - script: echo asdf
   displayName: 'asdf'
 
-- script: touch testfile.txt
-  displayName: 'Create empty file.'
+- script: date > testfile.txt
+  displayName: 'Put date in file.'
   
   
 - publish: $(System.DefaultWorkingDirectory)/testfile.txt
