@@ -18,6 +18,10 @@ steps:
 
 - script: touch testfile.txt
   displayName: 'Create empty file.'
+  
+  
+- publish: $(System.DefaultWorkingDirectory)/testfile.txt
+  artifact: testfile
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
